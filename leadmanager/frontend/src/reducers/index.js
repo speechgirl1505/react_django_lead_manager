@@ -1,7 +1,10 @@
 import { combineReducers } from "redux";
 import leads from "./leads";
-// import  from ''
+import errors from "./errors";
+import messages from "./messages";
 
 export default combineReducers({
   leads,
+  errors,
+  messages,
 });
